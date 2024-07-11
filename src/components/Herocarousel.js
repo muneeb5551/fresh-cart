@@ -1,8 +1,6 @@
 import React from 'react';
 import '../assets/css/herocarousel.css';
 
-
-
 const Herocarousel = () => {
   return (
     <div className='container'>
