@@ -50,6 +50,61 @@ const items = [
       image: "https://freshcart.codescandy.com/assets/images/products/product-img-5.jpg",
       tags: [],
     },
+
+    {
+      name: "Blueberry Greek Yogurt",
+      category: "Dairy, Bread & Eggs",
+      price: 24,
+      discountedPrice: 18,
+      rating: 4.5,
+      reviewCount: 149,
+      image: "https://freshcart.codescandy.com/assets/images/products/product-img-6.jpg",
+      tags: ["Sale"],
+    },
+
+    {
+      name: "Britannia Cheese Slices",
+      category: "Dairy, Bread & Eggs",
+      price: 24,
+      discountedPrice: 18,
+      rating: 4.5,
+      reviewCount: 149,
+      image: "https://freshcart.codescandy.com/assets/images/products/product-img-7.jpg",
+      tags: [""],
+    },
+
+    {
+      name: "Kellogg's Original Cereals",
+      category: "Snack & Munchies",
+      price: 24,
+      discountedPrice: 18,
+      rating: 4.5,
+      reviewCount: 149,
+      image: "https://freshcart.codescandy.com/assets/images/products/product-img-8.jpg",
+      tags: [""],
+    },
+
+    {
+      name: "Slurrp Millet Chocolate",
+      category: "Instant Food",
+      price: 24,
+      discountedPrice: 18,
+      rating: 4.5,
+      reviewCount: 149,
+      image: "https://freshcart.codescandy.com/assets/images/products/product-img-9.jpg",
+      tags: [""],
+    },
+
+    {
+      name: "Amul Butter - 500 g",
+      category: "Dairy, Bread & Eggs",
+      price: 24,
+      discountedPrice: 18,
+      rating: 4.5,
+      reviewCount: 149,
+      image: "https://freshcart.codescandy.com/assets/images/products/product-img-10.jpg",
+      tags: [""],
+    },
   ];
   
   export default items;

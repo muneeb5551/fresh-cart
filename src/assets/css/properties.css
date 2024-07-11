@@ -1,0 +1,26 @@
+.properties-cards{
+    width: 25%;
+    padding: 10px;
+}
+.properties-cards h1{
+    color: rgb(5, 204, 5);
+}
+.properties-cards h6{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.properties-cards p{
+    font-family: sans-serif;
+    color: #757575;
+    font-size: 15px;
+
+}
+
+
+@media screen and (max-width:375px) {
+    .properties-cards{
+        width: 100%;
+        padding: 10px;
+    }
+}

@@ -12,16 +12,104 @@ color: rgb(110, 110, 110);
 .nav-icons{
     position: relative;
 }
+.icons{
+    font-size: 18px;
+}
 .nav-bagde{
     position: absolute;
-    top: -10px;
-    right: 70px;
+    top: -6px;
+    right: 93px;
 }
 .nav-bagde-2{
     position: absolute;
-    top: -10px;
+    top: -5px;
     right: -15px;
 }
 .icons{
     color: #bdc0bf;
+}
+.button-nav{
+    border: none;
+    background-color: white;
+    font-size: 14px;
+}
+.nav-barcanvas-width{
+    width: 35%!important;
+}
+.mic-img{
+    width: 20%;
+}
+.mic-img img{
+    width: 100px;
+}
+.name-item{
+    width: 40%;
+}
+.name-item p{
+    margin-bottom: 1px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #9ca09f;
+}
+.name-item h6{
+    margin-bottom: 1px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.add-less-main{
+    width: 20%;
+
+}
+.item-pkr{
+    width: 20%;
+}
+.less-div{
+    border: 1px solid black;
+    padding: 1px 3.5px;
+    margin: 0;
+}
+.less-div p{
+    margin-bottom: 0px;
+}
+.item-pkr p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.mbl-list h5{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #9ca09f;
+    font-weight: bold;
+    margin-bottom: 2px;
+
+}
+
+
+@media screen and (max-width:375px) {
+    .nav-input{
+        display: none;
+    }
+    .input-btn{
+        display: none;
+    }
+    .nav-bara-none{
+        width: 40%;
+    }
+    .nav-icons{
+        width: 100px;
+        justify-content: center;
+    }
+    
+    .nav-barcanvas-width{
+        width: 100%!important;
+    }
+    .name-item{
+        width: 30%;
+    }
+    .mic-img img{
+        width: 80px;
+    }
 }

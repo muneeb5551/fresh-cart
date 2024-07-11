@@ -13,6 +13,12 @@
     width: 60%;
     margin-bottom: 15px;
 }
+.items-main-1two{
+    width: 32%;
+}
+.items-main-2two{
+    width: 64%;
+}
 .items-main h4{
     color: rgb(131, 127, 127) ;
     font-family: sans-serif;
@@ -21,4 +27,17 @@
 .items-main:hover{
     border: 1px solid greenyellow;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width:375px) {
+    .items-main{
+        width: 48%;
+        margin-right: 2px;
+        margin-bottom: 7px;
+    }
+    
+    /* .items-main-main{
+        justify-content: space-evenly;
+    } */
 }

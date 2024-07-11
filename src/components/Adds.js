@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/css/adds.css';
 const Adds = () => {
   return (
-    <div className='container d-flex justify-content-between align-items-center gap-5 my-5'>
+    <div className='container d-md-flex justify-content-between align-items-center gap-5 my-5'>
       <div className="banner-1">
         <h3 className='text-capitalize'>fruits & vegetables</h3>
         <p>Get Upto 30% Off</p>

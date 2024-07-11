@@ -27,8 +27,8 @@ code {
 
 .item-card {
   border: 1px solid #e0e0e0;
-  border-radius: 5px;
-  padding: 10px 20px;
+  border-radius:10px;
+  padding: 4px 20px;
   width: 230px;
   position: relative;
   transition: box-shadow 0.3s;
@@ -37,7 +37,7 @@ code {
 .item-card:hover{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
 border: 1px solid green;
-border-radius: 1%;
+border-radius: 10px;
 cursor: pointer;
 }
 .tag {
@@ -102,6 +102,21 @@ cursor: pointer;
   padding: 3px 7px;
   cursor: pointer;
   margin-left: 130px;
-  border-radius: 1%;
+  border-radius: 7px;
   font-size: 14px;
+  margin-top: -0px;
+}
+
+
+
+@media screen and (max-width:375px) {
+  .item-card {
+    border: 1px solid #e0e0e0;
+    border-radius:10px;
+    padding: 4px 20px;
+    width: 100%;
+    position: relative;
+    transition: box-shadow 0.3s;
+  
+  }
 }

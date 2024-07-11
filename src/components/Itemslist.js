@@ -5,6 +5,7 @@ import items from '../data/Things.js';
 
 const ItemList = () => {
   return (
+   <>
     <div className="item-list">
       {items.map((item, index) => (
         <Item
@@ -18,8 +19,11 @@ const ItemList = () => {
           image={item.image}
           tags={item.tags}
         />
+        
       ))}
     </div>
+    
+   </>
   );
 };
 
