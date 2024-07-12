@@ -113,3 +113,36 @@ color: rgb(110, 110, 110);
         width: 80px;
     }
 }
+@media screen and (min-width:376px) and (max-width:768px) {
+    .nav-input{
+        display: none;
+    }
+    .input-btn{
+        display: none;
+    }
+    .nav-bara-none{
+        width: 40%;
+    }
+    .nav-icons{
+        width: 100px;
+        justify-content: center;
+    }
+    
+    .nav-barcanvas-width{
+        width: 100%!important;
+    }
+    .name-item{
+        width: 30%;
+    }
+    .mic-img img{
+        width: 80px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .nav-input{
+        width: 250px;
+        font-size: 14px;
+        color: #bdc0bf;
+    margin-left: -150px;
+    }
+}

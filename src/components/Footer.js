@@ -4,7 +4,7 @@ import '../assets/css/footer.css';
 const Footer = () => {
   return (
     <div className='container-fluid footer-back'>
-      <div className="container d-md-flex align-items-start">
+      <div className="container d-lg-flex align-items-start">
         <div className="d-flex footer-main justify-content-between">
         <div className="footer-part">
             <h6>Categories</h6>
@@ -74,7 +74,7 @@ const Footer = () => {
       <div className="container-fluid my-3 px-0 mx-0 ">
         <hr className="hr-line2 "/>
     </div>
-<div className="container d-md-flex justify-content-between align-items-center">
+<div className="container d-lg-flex justify-content-between align-items-center">
 <div className="d-flex gap-3">
 <div className="payment-para"><p>Payment Partners</p></div>
 <div className="">
@@ -93,15 +93,15 @@ const Footer = () => {
     <img src="	https://freshcart.codescandy.com/assets/images/payment/visa.svg" alt="" />
 </div>
 </div>
-<div className="d-md-flex align-items-center gap-3">
+<div className="d-lg-flex align-items-center gap-3 store-icons">
     <div className="payment-para"> <p>Get deliveries with FreshCart</p></div>
    
-   <div className="d-flex">
+   <div className="d-flex justify-content-between align-items-center">
    <div className="">
-        <img src="	https://freshcart.codescandy.com/assets/images/appbutton/appstore-btn.svg" alt="" />
+        <img src="	https://freshcart.codescandy.com/assets/images/appbutton/appstore-btn.svg" className='store-icons' alt="" />
     </div>
     <div className="">
-        <img src="	https://freshcart.codescandy.com/assets/images/appbutton/googleplay-btn.svg" alt="" />
+        <img src="	https://freshcart.codescandy.com/assets/images/appbutton/googleplay-btn.svg" className='store-icons' alt="" />
     </div>
    </div>
 </div>

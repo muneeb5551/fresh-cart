@@ -78,4 +78,30 @@ font-size: 14px;
         width: 50%;
         margin-bottom: 10px;
     }
+    .store-icons{
+        text-align: center;
+
+    }
+}
+@media screen and (min-width:376px) and (max-width:768px) {
+    .payment-para{
+        text-align: center;
+    }
+    .footer-part-down{
+        width: 50%;
+    }
+    .store-icons{
+        text-align: center;
+        margin: auto;
+        width: 80%;
+
+    }
+    
+    .footer-main{
+        width: 100%;
+    }
+    .footer-part{
+        width: 50%;
+        margin-bottom: 10px;
+    }
 }

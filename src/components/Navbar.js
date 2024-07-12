@@ -12,7 +12,7 @@ const Navbar = () => {
           </div>
           <form className="d-flex justify-content-around nav-search-bar" role="search">
             <input className="form-control me-2 nav-input py-2" type="search" placeholder="Search for products" aria-label="Search" />
-            <button className="btn btn-outline-success d-flex gap-3 input-btn d-none d-md-block" type="submit"><i className="bi bi-geo-alt"></i> Location</button>
+            <button className="btn btn-outline-success d-flex gap-3 input-btn d-none d-lg-block" type="submit"><i className="bi bi-geo-alt"></i> Location</button>
           </form>
           <div className="d-flex align-items-center justify-content-between gap-lg-4 nav-icons">
             <Link to="/Wishlist"><h5><i className="bi bi-heart icons"></i></h5></Link>
