@@ -36,3 +36,13 @@
         width: 100%;
     }
 }
+@media screen and (min-width:376px) and (max-width:768px) {
+    .banner-1{
+        width: 100%;
+        margin-bottom: 15px;
+
+    }
+    .banner-2{
+        width: 100%;
+    }
+}
