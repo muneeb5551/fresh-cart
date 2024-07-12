@@ -9,6 +9,8 @@ import Home from './pages/Home';
 function App() {
   return (
     <>
+    <div className="">
+
       <Router>
         <Navbar />
         <Navbarsecond />
@@ -19,6 +21,7 @@ function App() {
         <Footer />
       </Router>
 
+    </div>
 
     </>
   );

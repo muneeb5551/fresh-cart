@@ -15,7 +15,7 @@ const Bestsales = () => {
                     </button>
                 </div>
             </div>
-            <div className="container d-flex bsales-main my-5 gap-3">
+            <div className="container d-md-flex  bsales-main my-5 gap-3">
 
                 <div className="bsales-banner">
                     <h1 className='text-white'>100% Organic Coffee Beans.</h1>

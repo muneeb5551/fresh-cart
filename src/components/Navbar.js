@@ -184,7 +184,7 @@ const Navbar = () => {
                   </div>
                 </form>
                 <div class="d-grid gap-2 col-12 mx-auto">
-                  <button class="btn btn-success department-btn d-flex gap-3 justify-content-center align-items-center my-2 py-2" type="button"><i className="bi bi-grid"></i>All Departments</button>
+                  <button class="btn btn-success w-100 department-btn d-flex gap-3 justify-content-center align-items-center my-2 py-2" type="button"><i className="bi bi-grid"></i>All Departments</button>
                 </div>
                 <div className="my-2 mbl-list">
                   <h5>Home</h5>
