@@ -11,7 +11,7 @@ import Properties from '../components/Properties';
 
 const Home = () => {
   return (
-    <div className='container-fluid'>
+    <div className=''>
       <Herocarousel />
       <Featured />
       <Items />
