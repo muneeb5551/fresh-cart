@@ -157,9 +157,32 @@ margin-bottom: 0px;
         
         }
     }
+    @media screen and (min-width:376px) and (max-width:425px) {
+        .bsales-banner{
+            background-image: url('https://freshcart.codescandy.com/assets/images/banner/banner-deal.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 70vh;
+            background-position: 100%;
+            border-radius: 10px;
+            width: 100%;
+            padding: 35px 25px;
+            margin-bottom: 15px;
+        }
+        .bsales-main{
+            overflow-x: scroll;
+        }
+        .bsales-one{
+            width: 100%;
+            border: 1px solid #d4cece;
+            border-radius: 10px;
+            transition: box-shadow 0.3s;
+            margin-bottom: 15px;
+        
+        }
+    }
 
-
-    @media screen and (min-width:376px) and (max-width:768px) {
+    @media screen and (min-width:426px) and (max-width:768px) {
         .bsales-main{
             overflow-x: scroll;
         }
@@ -298,7 +321,7 @@ margin-bottom: 0px;
             font-weight: bold;
             }
     }
-    @media screen and (min-width:376px) and (max-width:1024px) {
+    @media screen and (min-width:769px) and (max-width:1024px) {
         .bsales-main{
             overflow-x: scroll;
         }
