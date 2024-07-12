@@ -13,8 +13,8 @@ const Wishlist = () => {
       <h1>My Wishlist</h1>
       <p className='wish-para'>There are 5 products in this wishlist.</p>
 
-      <div className="my-5">
-        <table class="table table-main">
+      <div className="my-5 table-main">
+        <table class="table">
           <thead className=''>
             <tr className='table-secondary'>
               <th scope="col">
