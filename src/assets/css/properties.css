@@ -1,6 +1,7 @@
 .properties-cards{
     width: 25%;
     padding: 10px;
+    flex-wrap: wrap;
 }
 .properties-cards h1{
     color: rgb(5, 204, 5);
@@ -19,6 +20,13 @@
 
 
 @media screen and (max-width:375px) {
+    .properties-cards{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:450px) {
     .properties-cards{
         width: 100%;
         padding: 10px;

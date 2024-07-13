@@ -115,6 +115,7 @@ cursor: pointer;
     width: 48%;
     position: relative;
     transition: box-shadow 0.3s;
+    margin-bottom: 6px;
 }
 .add-button {
   background-color: green;

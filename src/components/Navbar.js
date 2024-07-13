@@ -16,7 +16,7 @@ const Navbar = () => {
           </form>
           <div className="d-flex align-items-center justify-content-between gap-lg-4 nav-icons">
             <Link to="/Wishlist"><h5><i className="bi bi-heart icons"></i></h5></Link>
-            <div className='nav-bagde'><span className="badge text-bg-success rounded-circle">5</span></div>
+            <div className='nav-bagde badge-five'><span className="badge text-bg-success badge-main rounded-circle">5</span></div>
             {/* ******************** */}
             {/* /* //person-icon */}
             <button type="button" className="button-nav" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -159,7 +159,7 @@ const Navbar = () => {
               </div>
             </div>
             {/* ***************** */}
-            <div className='nav-bagde-2'><span className="badge text-bg-success rounded-circle">1</span></div>
+            <div className='nav-bagde-2'><span className="badge badge-main text-bg-success rounded-circle">1</span></div>
           </div>
           {/* //mobile-screen-offcanvas */}
           <div className="d-sm-block d-md-none">

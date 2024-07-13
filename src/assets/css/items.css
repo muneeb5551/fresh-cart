@@ -34,10 +34,17 @@
     .items-main{
         width: 48%;
         margin-right: 2px;
-        margin-bottom: 7px;
+        margin-bottom: 12px;
     }
     
-    /* .items-main-main{
-        justify-content: space-evenly;
-    } */
+}
+
+
+@media screen and (min-width:376px) and (max-width:425px) {
+    .items-main{
+        width: 48%;
+        margin-right: 2px;
+        margin-bottom: 12px;
+    }
+    
 }

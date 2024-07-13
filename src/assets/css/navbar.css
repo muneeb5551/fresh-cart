@@ -102,7 +102,19 @@ color: rgb(110, 110, 110);
         width: 100px;
         justify-content: center;
     }
-    
+    .nav-bagde{
+        position: absolute;
+        top: -7px;
+        right: 70px;
+    }
+    .nav-bagde-2{
+        position: absolute;
+        top: -5px;
+        right: -13px;
+    }
+    .badge-main{
+        font-size: 10px;
+    }
     .nav-barcanvas-width{
         width: 100%!important;
     }
@@ -138,6 +150,27 @@ color: rgb(110, 110, 110);
         width: 80px;
     }
 }
+@media screen and (min-width:376px) and (max-width:425px) {
+    .nav-input{
+        width: 250px;
+        font-size: 14px;
+        color: #bdc0bf;
+    margin-left: -150px;
+    }
+    .nav-bagde{
+        position: absolute;
+        top: -7px;
+        right: 70px;
+    }
+    .nav-bagde-2{
+        position: absolute;
+        top: -5px;
+        right: -13px;
+    }
+    .badge-main{
+        font-size: 10px;
+    }
+}
 @media screen and (min-width:769px) and (max-width:1024px) {
     .nav-input{
         width: 250px;
@@ -145,4 +178,5 @@ color: rgb(110, 110, 110);
         color: #bdc0bf;
     margin-left: -150px;
     }
+    
 }

@@ -98,3 +98,58 @@
         font-weight: 600;
     }
 }
+@media screen and (min-width:376px) and (max-width:768px) {
+
+    .slide-first {
+        background-image: url(https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        padding-top: 20px;
+        height: auto;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    .slide-first-2 {
+        background-image: url(https://freshcart.codescandy.com/assets/images/slider/slider-2.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        padding-top: 20px;
+        height: auto;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .slider-button {
+        font-size: 12px;
+    }
+
+    .slider-para {
+        font-size: 12px;
+    }
+
+    .slidefirst-content {
+        padding-top: 40px;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .slide-h1 h1 {
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .slide-h6 {
+        background-color: hsl(44, 100%, 52%);
+        width: 135px;
+        border-radius: 5px;
+    }
+
+    .slide-h6 h6 {
+        font-family: sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
