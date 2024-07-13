@@ -129,6 +129,19 @@ color: rgb(110, 110, 110);
     .nav-input{
         display: none;
     }
+    .nav-bagde{
+        position: absolute;
+        top: -7px;
+        right: 70px;
+    }
+    .nav-bagde-2{
+        position: absolute;
+        top: -5px;
+        right: -13px;
+    }
+    .badge-main{
+        font-size: 10px;
+    }
     .input-btn{
         display: none;
     }
