@@ -162,7 +162,7 @@ const Navbar = () => {
             <div className='nav-bagde-2'><span className="badge badge-main text-bg-success rounded-circle">1</span></div>
           </div>
           {/* //mobile-screen-offcanvas */}
-          <div className="d-sm-block d-md-none">
+          <div className="d-sm-block d-lg-none">
             {/* /* <!-- Second Offcanvas Trigger --> */}
             <h5 className="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample2" aria-controls="offcanvasExample2">
               <i class="bi bi-list"></i>

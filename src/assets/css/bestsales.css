@@ -204,7 +204,8 @@ margin-bottom: 0px;
 
     @media screen and (min-width:426px) and (max-width:768px) {
         .bsales-main{
-            overflow-x: scroll;
+            display: flex;
+            flex-direction: column;
         }
 
         .bsales-icons{
@@ -224,7 +225,7 @@ margin-bottom: 0px;
             height: 70vh;
             background-position: 100%;
             border-radius: 10px;
-            width: 40%;
+            width: 100%;
             padding: 35px 25px;
         }
         .bsales-banner h1{
@@ -246,7 +247,7 @@ margin-bottom: 0px;
         margin-top: 40px;
         }
         .bsales-one{
-            width: 40%;
+            width: 100%;
             border: 1px solid #d4cece;
             border-radius: 10px;
             transition: box-shadow 0.3s;

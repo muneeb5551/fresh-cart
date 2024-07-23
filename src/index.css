@@ -139,6 +139,7 @@ cursor: pointer;
     width: 48%;
     position: relative;
     transition: box-shadow 0.3s;
+    margin: 10px 0px;
   
   }
   .item-list {
@@ -147,7 +148,6 @@ cursor: pointer;
     gap: 3px;
     justify-content: space-between;
     align-items: start;
-    padding: 0px 0px;
     
   }
   .add-button {

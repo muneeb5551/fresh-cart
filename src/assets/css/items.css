@@ -48,3 +48,11 @@
     }
     
 }
+@media screen and (min-width:426px) and (max-width:768px) {
+    .items-main{
+        width: 48%;
+        margin-right: 2px;
+        margin-bottom: 12px;
+    }
+    
+}
